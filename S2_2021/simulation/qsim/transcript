@@ -1,0 +1,45 @@
+# do SOMADOR_COMPLETO.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:03 on Nov 24,2021
+# vcom -work work SOMADOR_COMPLETO.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package fiftyfivenm_atom_pack
+# -- Loading package fiftyfivenm_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity somador_completo
+# -- Compiling architecture structure of somador_completo
+# End time: 20:01:03 on Nov 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:01:03 on Nov 24,2021
+# vcom -work work SOMADOR_COMPLETO_2.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity somador_completo_vhd_vec_tst
+# -- Compiling architecture somador_completo_arch of somador_completo_vhd_vec_tst
+# End time: 20:01:03 on Nov 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L fiftyfivenm -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.SOMADOR_COMPLETO_vhd_vec_tst 
+# Start time: 20:01:05 on Nov 24,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.somador_completo_vhd_vec_tst(somador_completo_arch)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading fiftyfivenm.fiftyfivenm_atom_pack(body)
+# Loading fiftyfivenm.fiftyfivenm_components
+# Loading work.somador_completo(structure)
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "S".
+#    Time: 0 ps  Iteration: 0  Instance: /somador_completo_vhd_vec_tst/i1 File: SOMADOR_COMPLETO.vho Line: 95
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 20:01:05 on Nov 24,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
